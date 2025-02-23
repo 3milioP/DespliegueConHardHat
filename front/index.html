@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script defer type="module" src='app.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.9.0/ethers.umd.min.js"></script>
+</head>
+<body>
+    <div class="create">
+        <h1>CREATE PROPOSAL</h1>
+        <input type="text" id="createTitleInput" placeholder="Title">
+        <input type="text" id="createDescInput" placeholder="Description">
+        <input type="text" id="createOptionsInput" placeholder="Options">
+        <input type="button" id="createButton" value="CREATE PROPOSAL">
+    </div>
+
+    <div class="get">
+        <h1>GET PROPOSAL INFO</h1>
+        <input type="number" id="getInput" placeholder="Proposal Id">
+        <input type="button" id="getButton" value="GET PROPOSAL INFO">
+    </div>
+
+    <div class="vote">
+        <h1>VOTE PROPOSAL</h1>
+        <input type="number" id="voteIdInput" placeholder="Proposal Id">
+        <input type="number" id="voteOptionInput" placeholder="Option">
+        <input type="button" id="voteButton" value="VOTE PROPOSAL">
+    </div>
+
+    <div class="execute">
+        <h1>EXECUTE PROPOSAL</h1>
+        <input type="number" id="executeInput" placeholder="Proposal Id">
+        <input type="button" id="executeButton" value="EXECUTE PROPOSAL">
+    </div>
+</body>
+</html>
